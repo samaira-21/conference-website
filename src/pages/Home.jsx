@@ -6,7 +6,7 @@ export default function Home(){
   return (
     <section className="grid md:grid-cols-2 gap-10 items-center">
       <motion.div initial={{ x:-8, opacity:0 }} animate={{ x:0, opacity:1 }} transition={{ duration:0.5 }}>
-        <h1 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-3">2nd International Conference on Mathematical Sciences & Its Applications to Artificial Intelligence</h1>
+        <h1 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-3">2nd International Conference on Applied Mathematics and Computational Sciences</h1>
         <p className="text-gray-600 mb-4">18th–20th December 2025 • SRM University, Delhi – NCR, Sonepat</p>
         <p className="text-gray-700 mb-6">A three-day conference bringing together academic and industry researchers to discuss modern analysis, applied mathematics and real-world AI applications.</p>
         <div className="flex gap-3">
