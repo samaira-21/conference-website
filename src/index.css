@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Basic theme: white-forward with soft teal accent */
+:root{
+  --accent: #0d9488; /* teal-600-ish */
+  --muted: #6b7280;
+}
+
+/* basic body & utils */
+body {
+  @apply bg-gray-50 text-gray-800;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* tiny helpers */
+.container { @apply max-w-6xl mx-auto; }
+.card { @apply bg-white rounded-2xl shadow-sm border border-gray-100 p-6; }
+.person-img { @apply w-24 h-24 rounded-full object-cover border-4 border-white shadow-md; }
+
+/* accent utilities */
+.btn-accent {
+  background: var(--accent);
+}
+.btn-accent:hover {
+  filter: brightness(.95);
+}
