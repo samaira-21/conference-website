@@ -31,11 +31,19 @@ const conveners = [
 
 const secretaries = [
   { name: 'Dr. Sachin Malik', role: 'Conference Secretary', affiliation: 'SRM University'},
-  { name: 'Dr. Asha Rani', role: 'Conference Secretary', affiliation: 'SRM University'},
-  { name: 'Dr. Preeti Tyagi', role: 'Conference Secretary', affiliation: 'SRM University'},
-  { name: 'Dr. Ruchi Kawatra', role: 'Conference Secretary', affiliation: 'SRM University'},
-  { name: 'Dr. Ram Prasad Yadav', role: 'Conference Secretary', affiliation: 'SRM University'},
-  { name: 'Dr. Deepak Grover', role: 'Conference Secretary', affiliation: 'SRM University'}
+  { name: 'Dr. Saroj Gupta', role: 'Conference Secretary', affiliation: 'SRM University'}
+]
+
+const committee = [
+  { name: 'Dr. Asha Rani', role: 'Organizing Committee', affiliation: 'SRM University'},
+  { name: 'Dr. Preeti Tyagi', role: 'Organizing Committee', affiliation: 'SRM University'},
+  { name: 'Dr. Deepak Grover', role: 'Organizing Committee', affiliation: 'SRM University'},
+  { name: 'Dr. Neelu Chaudhary', role: 'Organizing Committee', affiliation: 'SRM University'},
+  { name: 'Dr. Ram Prasad Yadav', role: 'Organizing Committee', affiliation: 'SRM University'},
+  { name: 'Prof. Ajay Sharma', role: 'Organizing Committee', affiliation: 'SRM University'},
+  { name: 'Prof. Rakesh Ahuja', role: 'Organizing Committee', affiliation: 'SRM University'},
+  { name: 'Dr. Namrata Sukhija', role: 'Organizing Committee', affiliation: 'SRM University'},
+  { name: 'Dr. Shyamsunder', role: 'Organizing Committee', affiliation: 'SRM University'},
 ]
 
 export default function Patrons(){
@@ -82,6 +90,14 @@ export default function Patrons(){
           {secretaries.map(p => <PersonCard key={p.name} {...p} />)}
         </div>
       </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-4">Organizing Committee</h2>
+        <div className="grid md:grid-cols-2 gap-4">
+          {committee.map(p => <PersonCard key={p.name} {...p} />)}
+        </div>
+      </section>
+
     </div>
   )
 }

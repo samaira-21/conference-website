@@ -19,9 +19,19 @@ export default function Register(){
       <div className="card">
         <h3 className="font-medium mb-2">Registration Link</h3>
         <ul className="text-sm text-gray-600 space-y-1">
-          <li>https://forms.gle/8xJv7u2GpG2Ueyba6</li>
-        </ul>
-      </div>
+          <li>
+            <a
+              href="https://forms.gle/8xJv7u2GpG2Ueyba6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[var(--accent)] hover:underline"
+            >
+            https://forms.gle/8xJv7u2GpG2Ueyba6
+            </a>
+          </li>
+          </ul>
+    </div>
+
 
       <div className="card">
         <h3 className="font-medium mb-2">Payment Details</h3>
@@ -34,11 +44,6 @@ export default function Register(){
           <div><strong>IFSC Code:</strong> SBIN0006838</div>
         </div>
 
-        <p className="text-sm text-gray-600 mt-3">
-          After payment, please email the payment proof (screenshot or transaction receipt) with your name, category and amount to:
-          <a href="mailto:sanjey.k@srmuniversity.ac.in" className="text-[var(--accent)] ml-1">sanjey.k@srmuniversity.ac.in</a>
-        </p>
-
         <p className="text-xs text-gray-500 mt-3">
           Note: Participants are requested to make their own accommodation arrangements. Last date for registration: <strong>30th November 2025</strong>.
         </p>
@@ -46,7 +51,7 @@ export default function Register(){
 
       <div className="card">
         <h3 className="font-medium mb-2">Need help?</h3>
-        <p className="text-sm text-gray-700">Contact Organizing Secretary: Dr. Sanjey Kumar — <a className="text-[var(--accent)]" href="mailto:sanjey.k@srmuniversity.ac.in">sanjey.k@srmuniversity.ac.in</a> • +91 91939 66699</p>
+        <p className="text-sm text-gray-700">Contact Organizing Secretary: Dr. Sanjey Kumar — <a className="text-[var(--accent)]" href="mailto:sanjey.k@srmuniversity.ac.in">sanjey.k@srmuniversity.ac.in</a> • <a href="mailto:icmsiaai@srmuniversity.ac.in" className="text-[var(--accent)]">icmsiaai@srmuniversity.ac.in</a> • +91 91939 66699</p>
       </div>
     </div>
   )

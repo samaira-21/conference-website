@@ -8,7 +8,7 @@ export default function Contact(){
       <div className="card text-sm text-gray-700">
         <p><strong>Organizing Secretary:</strong> Dr. Sanjey Kumar</p>
         <p>Department of Mathematics, Faculty of Science & Humanities, SRM University Delhi – NCR, Sonepat</p>
-        <p>Email: <a href="mailto:sanjey.k@srmuniversity.ac.in" className="text-[var(--accent)]">sanjey.k@srmuniversity.ac.in</a></p>
+        <p>Email: <a href="mailto:sanjey.k@srmuniversity.ac.in" className="text-[var(--accent)]">sanjey.k@srmuniversity.ac.in</a>, <a href="mailto:icmsiaai@srmuniversity.ac.in" className="text-[var(--accent)]">icmsiaai@srmuniversity.ac.in</a></p>
         <p>Contact No.: +91 91939 66699</p>
       </div>
 

@@ -21,8 +21,8 @@ export default function Navbar() {
         <Link to="/" className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-full bg-[var(--accent)] flex items-center justify-center text-white font-semibold">IC</div>
           <div>
-            <div className="text-sm font-semibold text-gray-900">2nd International Conference</div>
-            <div className="text-xs text-gray-500">Mathematical Sciences & AI • 18–20 Dec 2025</div>
+            <div className="text-sm font-semibold text-gray-900">International Conference</div>
+            <div className="text-xs text-gray-500">Applied Mathematics and Computational Sciences • 18–20 Dec 2025</div>
           </div>
         </Link>
 

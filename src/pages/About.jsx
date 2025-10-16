@@ -5,7 +5,7 @@ export default function About(){
     <div className="space-y-6">
       <h2 className="text-2xl font-semibold">About the Conference</h2>
       <p className="text-gray-700">
-        The 2nd International Conference on Mathematical Sciences & Its Applications to Artificial Intelligence aims to bring together
+        The International Conference on Applied Mathematics & Computational Sciences aims to bring together
         leading researchers, academicians, and students to explore innovative solutions and modern methodologies at the intersection
         of mathematics and AI. The conference fosters interdisciplinary collaboration and knowledge sharing between national and
         international experts.
@@ -19,7 +19,7 @@ export default function About(){
       <div className="grid md:grid-cols-2 gap-4">
         <div className="card">
           <h3 className="font-medium mb-2">Organizers</h3>
-          <p className="text-sm text-gray-600">Department of Mathematics, Faculty of Science & Humanities, SRM University Delhi – NCR, Sonepat.</p>
+          <p className="text-sm text-gray-600">Department of Mathematics with collaboration Department of Computer Science & Engineering, SRM University Delhi – NCR, Sonepat.</p>
         </div>
 
         <div className="card">
@@ -39,12 +39,23 @@ export default function About(){
 
       <h2 className="text-2xl font-semibold">Conference Objectives</h2>
       <p className="text-gray-700">
-        Analysis is the branch of mathematics dealing with continuous functions, limits, and related theories, such as differentiation, integration, measure, infinite sequences, series, and analytic functions. It also has a wide range of applications to numerous fields such as- Differential topology, Partial differential equations, Analytic number theory etc. In fact, the vast majority of physical sciences like- classical mechanics, relativity and quantum mechanics is based on applied analysis. It plays an ever growing role in research and is filled with multiple challenging problems on which the participants can try their hands on. The main motive of the conference is to provide a platform to the students where they can directly interact with the learned specialists of the field and acquaint themselves with one of the most fascinating branches of mathematics.
+        The objectives of the International Conference on Applied Mathematics and Computational Sciences (AMCS) are to provide a platform for academics, scientists, and practitioners to share knowledge on current trends in AI and mathematics. Specific goals include fostering collaboration, narrowing the gap between theory and practice, presenting cutting-edge research, and providing a forum for new ideas and publication opportunities. It also aims to encourage interdisciplinary approaches and drive innovation across various fields where mathematics is integral, such as Machine Learning, Data Science, and Optimization.
+      </p>
+      <p className="text-gray-700">
+        Provide a platform: To bring together academicians, scientists, professionals, and practitioners to focus on current trends, achievements, and new research in the fields of mathematical sciences and artificial intelligence.
+      </p>
+      <p className='text-gray-700'>
+        Foster collaboration: To facilitate discussions and collaborations between researchers from academia, industry, and government, promoting a joint effort to advance the field. 
       </p>
 
       <h2 className="text-2xl font-semibold">About Department of Mathematics</h2>
       <p className="text-gray-700">
         Mathematics plays an ever-increasing role in our shifting technological landscape. From engineers and economists to scientists and statisticians, a solid background in mathematics is absolutely critical for adapting to the new paradigms shaping our world. The department has well qualified and motivated faculty members and research scholars. This department is also providing support to several other departments and thereby has interdisciplinary expertise as well as vice - versa. The Department has acquired recently a comprehensive MATLAB Laboratory; competent faculty trained in the applications of various tools and techniques using this MATLAB software. Courses offered by the Department are B.Sc. (H) Mathematics, B.Sc. (H) Statisticss, M.Sc. Mathematics & Ph.D.
+      </p>
+
+      <h2 className="text-2xl font-semibold">About Department of Computer Science & Engineering</h2>
+      <p className="text-gray-700">
+        The Department of Computer Science is renowned for cutting-edge research and for imparting state-of-the-art world-class education. We attract excellent students and faculty. The department of Computer Science imparts international-level training and research. The department provides high-standard computing facilities to the students. It also promotes active industry-department affiliation by finding common areas of interest and participating in research projects and consultancy services. Out research exists in the areas of systems software, networking, artificial intelligence, robotics, and scientific computing. Besides basic research, interdisciplinary work on applications that stimulate basic research has been undertaken by the Department of Computer Science Engineering.
       </p>
 
       <h2 className="text-2xl font-semibold">Accommodation</h2>

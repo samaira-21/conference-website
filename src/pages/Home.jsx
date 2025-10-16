@@ -6,7 +6,7 @@ export default function Home(){
   return (
     <section className="grid md:grid-cols-2 gap-10 items-center">
       <motion.div initial={{ x:-8, opacity:0 }} animate={{ x:0, opacity:1 }} transition={{ duration:0.5 }}>
-        <h1 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-3">2nd International Conference on Applied Mathematics and Computational Sciences</h1>
+        <h1 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-3">International Conference on Applied Mathematics and Computational Sciences</h1>
         <p className="text-gray-600 mb-4">18th–20th December 2025 • SRM University, Delhi – NCR, Sonepat</p>
         <p className="text-gray-700 mb-6">A three-day conference bringing together academic and industry researchers to discuss modern analysis, applied mathematics and real-world AI applications.</p>
         <div className="flex gap-3">
@@ -20,8 +20,8 @@ export default function Home(){
           <h3 className="font-medium mb-2">Quick Info</h3>
           <ul className="text-sm text-gray-600 space-y-1">
             <li><strong>Dates:</strong> 18–20 Dec 2025</li>
-            <li><strong>Registration deadline:</strong> 15 Nov 2025</li>
-            <li><strong>Venue:</strong> SRM University, Delhi – NCR, Sonepat</li>
+            <li><strong>Registration deadline:</strong> 30 Nov 2025</li>
+            <li><strong>Venue:</strong> Sri Sarveswarar Auditorium, SRM University, Delhi – NCR, Sonepat</li>
           </ul>
         </div>
 
